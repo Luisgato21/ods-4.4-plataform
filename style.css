@@ -1,0 +1,42 @@
+/* Estilos Globais */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.hero {
+    background: url('https://images.unsplash.com/photo-1556761175-4b46a572b786?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDd8fGVkdWNhdGlvbnxlbnwwfHx8fDE2MjY4MzU1Nzc&ixlib=rb-1.2.1&q=80&w=1080') no-repeat center center/cover;
+    height: 100vh;
+    color: Black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+}
+
+.about, .courses, .contact {
+    background-color: #f4f4f4;
+}
+
+.course-card {
+    margin-bottom: 20px;
+}
+
+/* Rodapé */
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+}
